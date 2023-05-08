@@ -7,9 +7,10 @@ const experiences = [
         job_type: 'On Site',
         icon: 'sustenir.png',
         responsibilities: [
-            'Resolved general day-to-day IT issues',
-            'Document and manage cloud, on-premise and CEA infrastructure',
-            'Programming, developing or integrating various information and operational technology for the wider business',
+            'Resolved general day-to-day IT issues.',
+            'Document and manage cloud, on-premise and CEA infrastructure.',
+            'Programming, developing or integrating various information and operational technology for the wider business.',
+            'Managed Office 365 Administration.'
         ],
     },
     {
@@ -20,8 +21,8 @@ const experiences = [
         job_type: 'Remote',
         icon: 'bluebell_people.png',
         responsibilities: [
-            'Developed IOT web apps using ReactJS',
-            'Developed backend applications with Node JS',
+            'Developed IOT web apps using ReactJS.',
+            'Developed backend applications with Node JS.',
             'Developed mobile applications using React Native.',
         ],
     },
@@ -33,9 +34,9 @@ const experiences = [
         job_type: 'On Site',
         icon: 'host_myanmar.png',
         responsibilities: [
-            'Developed HR softwares',
-            'Developed Travels and Tour web apps',
-            'Developed government related softwares using PHP and ReactJS',
+            'Developed HR softwares.',
+            'Developed Travels and Tour web apps.',
+            'Developed government related softwares using PHP and ReactJS.',
         ],
     },
 ]
