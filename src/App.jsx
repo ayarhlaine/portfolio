@@ -16,7 +16,7 @@ function App() {
           </a>
          </div>
       </nav>
-      <main className='px-10 bg-black-100'>
+      <main className='px-10 bg-black-100 text-white-100'>
         {/* Hero Section */}
         <div className="hero-section mt-10 flex w-full flex-row py-10 text-secondary">
           <div className="hero-left-section basis-1/2">
