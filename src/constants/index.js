@@ -21,7 +21,8 @@ const experiences = [
         icon: 'bluebell_people.png',
         responsibilities: [
             'Developed IOT web apps using ReactJS',
-            'Developed mobile application using React Native.',
+            'Developed backend applications with Node JS',
+            'Developed mobile applications using React Native.',
         ],
     },
     {
@@ -30,7 +31,7 @@ const experiences = [
         company_name: 'Host Myanmar (Software Solutions)',
         location: 'Yangon (Myanmar)',
         job_type: 'On Site',
-        icon: null,
+        icon: 'host_myanmar.png',
         responsibilities: [
             'Developed HR softwares',
             'Developed Travels and Tour web apps',
