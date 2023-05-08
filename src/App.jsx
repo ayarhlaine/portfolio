@@ -1,11 +1,13 @@
 import Experiences from "./components/Experiences";
+import { styles } from "./styles";
 
-function App() {
+const App = () => {
   return (
     <>
-      <nav className="flex w-full py-4 px-10 justify-between bg-primary fixed top-0 z-20" >
+      <nav className={`${styles.paddingX} flex w-full py-4 px-10 justify-between bg-primary fixed top-0 z-20`} >
         <div className="flex">
-          <a href="#" className="text-2xl text-white uppercase">Ayar Hlaine</a>
+          <img src="/assets/logo.png" className="w-9 h-9 rounded-full"/>
+          <a href="#" className="ml-3 text-2xl text-white uppercase">Ayar Hlaine</a>
          </div>
          <div className='flex'>
           <a href="#" className="mr-4 bg-white-100 rounded-full p-1">
@@ -16,35 +18,35 @@ function App() {
           </a>
          </div>
       </nav>
-      <main className='px-10 bg-black-100 text-white-100'>
+      <main className='bg-secondary text-white-100'>
         {/* Hero Section */}
-        <div className="hero-section mt-10 flex w-full flex-row py-10 text-secondary">
+        <div className={`${styles.padding} "hero-section mt-10 flex w-full flex-row text-secondary"`}>
           <div className="hero-left-section basis-1/2">
-            <h1 className="text-5xl mt-5">Hi, I&apos;m <span className='text-white-100 underline underline-offset-9'>Ayar Hlaine</span></h1>
-            <p className='mt-10 text-lg'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid dolorum velit minus laborum iusto sequi blanditiis consequatur tempore hic nam totam repellendus sunt quae, unde soluta at, culpa veniam in.</p>
+            <h1 className="text-5xl mt-5 text-white-100">Hi, I&apos;m <span className='text-[#A663CC] underline underline-offset-9'>Ayar Hlaine</span></h1>
+            <p className='mt-10 text-lg text-white-100'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid dolorum velit minus laborum iusto sequi blanditiis consequatur tempore hic nam totam repellendus sunt quae, unde soluta at, culpa veniam in.</p>
           </div>
           <div className="hero-right-section basis-1/2 flex item-center justify-center">
             <img className='rounded-full' src='/assets/me.jpg' alt='Ayar Hlaine Photo' width={400} height={400}/>
           </div>
         </div>
-        <hr className='bg-white'/>
+        <hr className='background-[#A663CC] border-[#A663CC]'/>
         {/* Experiences */}
-        <section className="py-2">
-          <h1 className="text-lg uppercase text-secondary">What I have done so far</h1>
+        <section className={`${styles.padding} py-2`}>
+          <h1 className="text-lg uppercase text-white-100">What I have done so far</h1>
           <h1 className="text-5xl text-white">Work Experience.</h1>
           <div className='flex flex-col mt-20'>
             <Experiences />
           </div>
         </section>
         {/* Projects */}
-        <section className="h-96 py-2">
-          <h1 className="text-lg uppercase text-secondary">My Work</h1>
+        <section className={`${styles.padding} h-96`}>
+          <h1 className="text-lg uppercase text-white-100">My Work</h1>
           <h1 className="text-5xl text-white">Projects.</h1>
         </section>
         {/* Contact Form */}
-        <section>
-          <div className="py-2 bg-black-200">
-            <h1 className="text-lg uppercase text-secondary">Get In Touch</h1>
+        <section className="bg-black-200">
+          <div className={`${styles.padding}`}>
+            <h1 className="text-lg uppercase text-white-100">Get In Touch</h1>
             <h1 className="text-5xl text-white">Contact.</h1>
             <div className="flex w-full flex-row mt-5">
               <div className='basis-1/2 py-5 px-10'>
