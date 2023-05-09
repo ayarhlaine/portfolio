@@ -12,7 +12,7 @@ const App = () => {
       <header>
         <Nav />
       </header>
-      <main className='bg-secondary text-white-100'>
+      <main className='bg-secondary text-white-100 bg-gradient-to-l from-secondary to-sky-900'>
         <Hero />
         <div className={`${styles.paddingX}`}>
           <hr className="bg-teal-400 border-teal-400"/>

@@ -2,7 +2,7 @@ import { styles } from '../styles';
 
 const Hero = () => {
   return (
-    <div className={`${styles.padding} "hero-section mt-10 flex w-full flex-col md:flex-row text-secondary"`}>
+    <div className={`${styles.padding} hero-section mt-10 flex w-full flex-col md:flex-row text-secondary`}>
         <div className="hero-left-section basis-1/2 order-2 text-center md:text-left md:order-1">
           <h1 className="text-4xl mt-5 text-white-100 md:text-5xl font-light">Hi, I&apos;m <span className='text-teal-400 font-bold'>Ayar Hlaine</span></h1>
           <p className='mt-10 text-lg text-white-100'>I develop high quality web applications.</p>
