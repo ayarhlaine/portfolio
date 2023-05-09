@@ -8,12 +8,7 @@ const Nav = () => {
             <a href="#" className="ml-3 text-lg text-white font-bold md:text-2xl">Ayar Hlaine</a>
         </div>
         <div className='flex'>
-            <a href="#" className="mr-4 bg-white-100 rounded-full p-1">
-                <img src="/assets/github.png" alt="Github Icon" width={25} height={25}/>
-            </a>
-            <a href="#" className="mr-4 bg-white-100 rounded-full p-1">
-                <img src="/assets/linkedin.png" alt="Linkedin Icon" width={25} height={25}/>
-            </a>
+            
         </div>
   </nav>
   )
