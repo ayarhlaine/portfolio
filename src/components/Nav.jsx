@@ -5,7 +5,7 @@ const Nav = () => {
     <nav className={`${styles.paddingX} flex w-full py-3 px-10 justify-between bg-primary fixed top-0 z-20`} >
         <div className="flex">
             <img src="/assets/logo.png" className="w-9 h-9 rounded-full"/>
-            <a href="#" className="ml-3 text-2xl text-white uppercase">Ayar Hlaine</a>
+            <a href="#" className="ml-3 text-lg text-white font-bold md:text-2xl">Ayar Hlaine</a>
         </div>
         <div className='flex'>
             <a href="#" className="mr-4 bg-white-100 rounded-full p-1">
