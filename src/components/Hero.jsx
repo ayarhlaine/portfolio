@@ -4,20 +4,20 @@ const Hero = () => {
   return (
     <div className={`${styles.padding} "hero-section mt-10 flex w-full flex-col md:flex-row text-secondary"`}>
         <div className="hero-left-section basis-1/2 order-2 text-center md:text-left md:order-1">
-          <h1 className="text-5xl mt-5 text-white-100">Hi, I&apos;m <span className='text-5xl text-[#A663CC]'>Ayar Hlaine</span></h1>
+          <h1 className="text-4xl mt-5 text-white-100 md:text-5xl">Hi, I&apos;m <span className='text-teal-400'>Ayar Hlaine</span></h1>
           <p className='mt-10 text-lg text-white-100'>I develop high quality web applications.</p>
           <div className='w-full py-3'>
-            <div className='flex flex-wrap gap-1 mt-2 item-center justify-center md:item-start md:justify-start'>
-                <a href="#" className="px-3 py-2 bg-teal-700 flex">
+            <div className='flex flex-wrap gap-1 mt-10 item-center justify-center md:item-start md:justify-start'>
+                <a href="#" className="px-3 py-2 bg-teal-500 flex">
                   <img src="/assets/github.png" alt="Github Icon" width={25} height={25}/>&nbsp;
                   Github
                 </a>
-                <a href="#" className="px-3 py-2 bg-teal-700 flex">
+                <a href="#" className="px-3 py-2 bg-teal-500 flex">
                   <img src="/assets/linkedin.png" alt="Github Icon" width={25} height={25}/>&nbsp;
                   Linkedin
                 </a>
-                <a href="#" className="px-3 py-2 bg-teal-700">LeetCode</a>
-                <a href="#" className="px-3 py-2 bg-teal-700">FrontendMentor</a>
+                <a href="#" className="px-3 py-2 bg-teal-500">LeetCode</a>
+                <a href="#" className="px-3 py-2 bg-teal-500">FrontendMentor</a>
             </div>
           </div>
         </div>

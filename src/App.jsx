@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 import Testimonials from "./components/Testimonials";
+import { styles } from "./styles";
 
 const App = () => {
   return (
@@ -13,7 +14,9 @@ const App = () => {
       </header>
       <main className='bg-secondary text-white-100'>
         <Hero />
-        <hr className='background-[#A663CC] border-[#A663CC]'/>
+        <div className={`${styles.paddingX}`}>
+          <hr className="bg-teal-400 border-teal-400"/>
+        </div>
         <Experiences />
         <Projects />
         <Testimonials />
