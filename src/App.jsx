@@ -23,6 +23,12 @@ const App = () => {
         <ContactForm />
       </main>
       <footer>
+        <div className="bg-black-200 py-5">
+          <p className="text-white text-center">
+            Build with <a href="https://vitejs.dev/" className="text-teal-400">Vite + React</a>, hosted on &nbsp;
+            <a href="https://vercel.com" className="text-teal-400">vercel.com</a>
+          </p>
+        </div>
       </footer>
     </>
   )

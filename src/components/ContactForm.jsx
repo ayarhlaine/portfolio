@@ -2,8 +2,8 @@ import { styles } from '../styles';
 
 const ContactForm = () => {
   return (
-    <section className="bg-black-200">
-        <div className={`${styles.padding}`}>
+    <section className={`${styles.padding}`}>
+        <div className={`bg-black-200 ${styles.padding} md:w-[50%]`}>
             <h1 className={`${styles.sectionSubHeading}`}>Get In Touch</h1>
             <h1 className={`${styles.sectionHeading}`}>Contact.</h1>
             <div className="flex w-full mt-5 flex-col">
