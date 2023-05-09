@@ -1,4 +1,4 @@
-const experiences = [
+const EXPERIENCES = [
     {
         title: 'IT Engineer',
         date: 'Nov 22 - Present',
@@ -41,4 +41,28 @@ const experiences = [
     },
 ]
 
-export default experiences;
+const TESTIMONIALS = [
+    {
+        name: 'John Doe',
+        position: 'CTO',
+        company: 'ABC Company',
+        recommendation: 'Ayar Hlaine is an exceptional member of our IT team. They consistently demonstrate a high level of technical proficiency and always go above and beyond to ensure that our systems are running smoothly.'
+    },
+    {
+        name: 'Alice',
+        position: 'CTO',
+        company: 'ABC Company',
+        recommendation: 'Since joining our IT department, Ayar Hlaine has been a key contributor to our success. They are always willing to take on new challenges and have an exceptional work ethic.'
+    },
+    {
+        name: 'Bob',
+        position: 'CTO',
+        company: 'ABC Company',
+        recommendation: 'I have had the pleasure of working with Ayar Hlaine for several years now, and they are simply one of the best IT professionals I have ever worked with. They have a deep understanding of our organization\'s needs and are always able to deliver solutions that meet or exceed our expectations.'
+    },
+]
+
+export {
+    EXPERIENCES,
+    TESTIMONIALS,
+}

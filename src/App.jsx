@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <hr className='background-[#A663CC] border-[#A663CC]'/>
         <Experiences />
         <Projects />
+        <Testimonials />
         <ContactForm />
       </main>
       <footer>
