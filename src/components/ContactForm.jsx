@@ -7,7 +7,7 @@ const ContactForm = () => {
             <h1 className={`${styles.sectionSubHeading}`}>Get In Touch</h1>
             <h1 className={`${styles.sectionHeading}`}>Contact.</h1>
             <div className="flex w-full mt-5 flex-col">
-                <div className='w-full md:w-[50%]'>
+                <div className='w-full md:w-[80%]'>
                     <div className='mt-5'>
                         <p className='text-white-100'>Your Name</p>
                         <input type="text" className='mt-5 p-3 w-[100%] outline-0' placeholder='What is your name?'/>

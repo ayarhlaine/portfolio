@@ -9,15 +9,21 @@ const Hero = () => {
           <div className='w-full py-3'>
             <div className='flex flex-wrap gap-1 mt-10 item-center justify-center md:item-start md:justify-start'>
                 <a href="#" className="px-3 py-2 bg-teal-500 flex">
-                  <img src="/assets/github.png" alt="Github Icon" width={25} height={25}/>&nbsp;
+                  <img src="/assets/github.png" alt="Github Icon" className='bg-white rounded-full p-1 object-contain' width={30} height={30}/>&nbsp;
                   Github
                 </a>
                 <a href="#" className="px-3 py-2 bg-teal-500 flex">
-                  <img src="/assets/linkedin.png" alt="Github Icon" width={25} height={25}/>&nbsp;
+                  <img src="/assets/linkedin.png" alt="Linkedin Icon" className='bg-white rounded-full p-1 object-contain' width={30} height={30}/>&nbsp;
                   Linkedin
                 </a>
-                <a href="#" className="px-3 py-2 bg-teal-500">LeetCode</a>
-                <a href="#" className="px-3 py-2 bg-teal-500">FrontendMentor</a>
+                <a href="#" className="px-3 py-2 bg-teal-500 flex">
+                  <img src="/assets/leetcode.png" alt="LeetCode Icon" className='rounded-full p-1 object-contain' width={30} height={30}/>&nbsp;
+                  LeetCode
+                </a>
+                <a href="#" className="px-3 py-2 bg-teal-500 flex">
+                  <img src="/assets/frontend-mentor.png" alt="Frontend Mentor Icon" className='bg-white rounded-full p-1 object-contain' width={30} height={30}/>&nbsp;
+                  Frontend Mentor
+                </a>
             </div>
           </div>
         </div>
