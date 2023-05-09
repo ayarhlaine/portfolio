@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-right-section basis-1/2 flex item-center justify-center order-1 md:order-2">
-          <img className='rounded-full' src='/assets/me.jpg' alt='Ayar Hlaine Photo' width={350} height={350}/>
+          <img className='rounded-full bg-teal-500' src='/assets/me-withoutbg.png' alt='Ayar Hlaine Photo' width={350} height={350}/>
         </div>
     </div>
   )
