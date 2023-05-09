@@ -29,7 +29,7 @@ const ExperienceCard = ({ experience }) => {
           <ul className="list-disc">
             {experience.responsibilities.map((responsibility) => {
               return (
-                <li key={responsibility} className="text-sm font-thin">{responsibility}</li>
+                <li key={responsibility} className="text-sm font-light">{responsibility}</li>
               )
             })}
           </ul>
