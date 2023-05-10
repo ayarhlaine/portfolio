@@ -1,17 +1,19 @@
 /* eslint-disable react/prop-types */
 
 import { TESTIMONIALS } from "../constants";
+import { motion } from 'framer-motion';
+import AnimatedSectionHeader from "./AnimatedSectionHeader";
 import { styles } from "../styles";
+import { fadeIn } from "../utils/animations";
 
 const Testimonials = () => {
   return (
     <section className={`${styles.padding}`}>
-        <h1 className={`${styles.sectionSubHeading}`}>What they say</h1>
-        <h1 className={`${styles.sectionHeading}`}>Testimonials.</h1>
+        <AnimatedSectionHeader heading={'Testimonials.'} subHeading={'What they say'}/>
         <div className='flex flex-row mt-5 gap-6 flex-wrap md:flex-nowrap'>
             {
-                TESTIMONIALS.map((testimonial) => (
-                    <Testimonial key={testimonial.name} testimonial={testimonial}/>
+                TESTIMONIALS.map((testimonial, index) => (
+                    <Testimonial key={testimonial.name} testimonial={testimonial} index={index}/>
                 ))
             }
         </div>
@@ -20,11 +22,15 @@ const Testimonials = () => {
 }
 
 const Testimonial = ({
-    testimonial,
+    testimonial, index
 }) => {
     const { name, position, company, recommendation } = testimonial;
     return (
-        <div className="bg-[#090325] p-5 rounded-xl md:flex-1">
+        <motion.div 
+        initial="offscreen"
+        whileInView="onscreen" 
+        variants={fadeIn(index * 0.5, 0.75)}
+        className="bg-[#090325] p-5 rounded-xl md:flex-1">
             <p className="text-white text-[46px]">&quot;</p>
             <div>
                 <p className="text-white text-base tracking-wider py-1 md:text-[18px] font-light">{recommendation}</p>
@@ -33,7 +39,7 @@ const Testimonial = ({
                     <p className="text-xs text-slate-400">{position} of {company}</p>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
