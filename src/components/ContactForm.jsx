@@ -38,15 +38,15 @@ const ContactForm = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='mt-5'>
                             <label className='text-white-100'>Your Name</label>
-                            <input name='name' type="text" className='mt-5 p-3 w-[100%] outline-0 text-black' placeholder='What is your name?'/>
+                            <input name='name' type="text" className='mt-5 p-3 w-[100%] outline-0 text-black' placeholder='What is your name?' required/>
                         </div>
                         <div className='mt-5'>
                             <label className='text-white-100'>Your Email</label>
-                            <input name='email' type="text" className='mt-5 p-3 w-[100%] outline-0 text-black' placeholder='What is your email?'/>
+                            <input name='email' type="text" className='mt-5 p-3 w-[100%] outline-0 text-black' placeholder='What is your email?' required/>
                         </div>
                         <div className='mt-5'>
                             <label className='text-white-100'>Your Message</label>
-                            <textarea name='message' className='mt-5 p-3 w-[100%] outline-0 text-black' placeholder='What do you want to say?'/>
+                            <textarea name='message' className='mt-5 p-3 w-[100%] outline-0 text-black' placeholder='What do you want to say?' required/>
                         </div>
                         <div className='mt-5'>
                             <button type='submit' className='bg-teal-400 text-white py-2 px-5'>Send</button>
