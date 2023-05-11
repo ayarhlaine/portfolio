@@ -62,7 +62,60 @@ const TESTIMONIALS = [
     },
 ]
 
+const PROJECTS = [
+    {
+        title: "Youtube Clone 1",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        image: "https://loremflickr.com/400/240/website",
+        tags: [
+            {
+                color: '#34D399',
+                name: "#nodejs", 
+            },
+            {
+                color: '#08B5D4',
+                name: "#react", 
+            },
+            {
+                color: '#EC4899',
+                name: "#tailwind css", 
+            },
+        ]
+    },
+    {
+        title: "Youtube Clone 2",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        image: "https://loremflickr.com/400/240/youtube",
+        tags: [
+            {
+                color: '#08B5D4',
+                name: "#react", 
+            },
+            {
+                color: '#EC4899',
+                name: "#tailwind css", 
+            },
+        ]
+    },
+    {
+        title: "Youtube Clone 3",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        image: "https://loremflickr.com/400/240/myanmar",
+        tags: [
+            {
+                color: '#34D399',
+                name: "#nodejs", 
+            },
+            {
+                color: '#08B5D4',
+                name: "#react", 
+            },
+        ]
+    }
+]
+
 export {
     EXPERIENCES,
     TESTIMONIALS,
+    PROJECTS
 }
