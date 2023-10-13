@@ -8,9 +8,9 @@ const EXPERIENCES = [
         icon: 'sustenir.png',
         responsibilities: [
             'Office 365 Administration',
+            'Developed a label printing system to streamline and improve the operations with NodeJS + React + Raspberry PI',
             'Resolved general day-to-day IT issues.',
             'Managed ordering, replacements, and maintenance of laptops/PC/IT related devices',
-            'Document and manage cloud, on-premise and CEA infrastructure.',
         ],
     },
     {
