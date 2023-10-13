@@ -1,22 +1,35 @@
 const EXPERIENCES = [
     {
         title: 'IT Engineer',
-        date: 'Nov 22 - Present',
-        company_name: 'Sustenir Group',
+        date: 'Nov 2022 - Present',
+        company_name: 'Sustenir Agriculture (Singapore) PTE. LTD',
         location: 'Singapore',
         job_type: 'On Site',
         icon: 'sustenir.png',
         responsibilities: [
+            'Office 365 Administration',
             'Resolved general day-to-day IT issues.',
+            'Managed ordering, replacements, and maintenance of laptops/PC/IT related devices',
             'Document and manage cloud, on-premise and CEA infrastructure.',
-            'Programming, developing or integrating various information and operational technology for the wider business.',
-            'Managed Office 365 Administration.'
         ],
     },
     {
         title: 'Full Stack Developer (Freelance)',
-        date: 'Dec 2018 - Feb 2021',
-        company_name: 'BlueBell People',
+        date: 'Mar 2021 - Nov 2022',
+        company_name: '-',
+        location: 'Singapore',
+        job_type: 'Remote',
+        icon: 'company.png',
+        responsibilities: [
+            'Developed Scheduling Web Apps using NodeJS, React + Postgres SQL',
+            'Developed Environment Monitoring Apps using Python, MQTT + InfluxDB',
+            'Programming, developing or integrating various information and operational technology for the wider business.',
+        ],
+    },
+    {
+        title: 'Full Stack Developer (Freelance)',
+        date: 'Feb 2021- Feb 2021',
+        company_name: 'BlueBell People PTE. LTD',
         location: 'Singapore',
         job_type: 'Remote',
         icon: 'bluebell_people.png',
