@@ -14,7 +14,7 @@ const EXPERIENCES = [
         ],
     },
     {
-        title: 'Full Stack Developer (Freelance)',
+        title: 'Full Stack Developer (Contract)',
         date: 'Mar 2021 - Nov 2022',
         company_name: '-',
         location: 'Singapore',
