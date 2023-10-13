@@ -77,52 +77,72 @@ const TESTIMONIALS = [
 
 const PROJECTS = [
     {
-        title: "Youtube Clone 1",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        image: "https://loremflickr.com/400/240/website",
+        title: "Sunnyside landing page",
+        links: [
+            { text: "Demo", link: "https://sunnyside-agency-landing-page-pink-six.vercel.app" },
+            { text: "Source Code", link: "https://github.com/ayarhlaine/sunnyside-agency-landing-page" }
+        ],
+        description: "Responsive web landing page",
+        image: "projects/sunnyside-agency-landing-page.webp",
         tags: [
             {
                 color: '#34D399',
-                name: "#nodejs", 
+                name: "#frontend mentor", 
             },
             {
                 color: '#08B5D4',
-                name: "#react", 
+                name: "#html", 
             },
             {
                 color: '#EC4899',
-                name: "#tailwind css", 
+                name: "#scss", 
             },
         ]
     },
     {
-        title: "Youtube Clone 2",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        image: "https://loremflickr.com/400/240/youtube",
+        title: "Loopstudios landing page",
+        links: [
+            { text: "Demo", link: "https://loopstudios-landing-page-ten-alpha.vercel.app" },
+            { text: "Source Code", link: "https://github.com/ayarhlaine/loopstudios-landing-page" }
+        ],
+        description: "Responsive web landing page",
+        image: "projects/loopstudios-landing-page.webp",
         tags: [
             {
+                color: '#34D399',
+                name: "#frontend mentor", 
+            },
+            {
                 color: '#08B5D4',
-                name: "#react", 
+                name: "#html", 
             },
             {
                 color: '#EC4899',
-                name: "#tailwind css", 
+                name: "#scss", 
             },
         ]
     },
     {
-        title: "Youtube Clone 3",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        image: "https://loremflickr.com/400/240/myanmar",
+        title: "Monster Chase Game",
+        links: [
+            { text: "Demo", link: "https://ayar-monster-chase.vercel.app/" },
+            { text: "Source Code", link: "https://github.com/ayarhlaine/monster_chase" }
+        ],
+        description: "A 2D game developed with Unity Game Engine.",
+        image: "projects/monster-chase.png",
         tags: [
             {
                 color: '#34D399',
-                name: "#nodejs", 
+                name: "#unity", 
             },
             {
                 color: '#08B5D4',
-                name: "#react", 
+                name: "C#", 
             },
+            {
+                color: '#EC4899',
+                name: "#game", 
+            }
         ]
     }
 ]

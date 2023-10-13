@@ -1,6 +1,7 @@
 import Experiences from "./components/Experiences";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+// import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 import Testimonials from "./components/Testimonials";
@@ -18,6 +19,7 @@ const App = () => {
           <hr className="bg-teal-400 border-teal-400"/>
         </div>
         <Experiences />
+        {/* <Skills /> */}
         <Projects />
         <Testimonials />
         <ContactForm />
@@ -25,7 +27,10 @@ const App = () => {
       <footer>
         <div className="bg-black-200 py-5">
           <p className="text-white text-center">
-            Build with <a href="https://vitejs.dev/" className="text-teal-400">Vite + React</a>, hosted on &nbsp;
+            Build with <a href="https://vitejs.dev/" className="text-teal-400">Vite + Tailwind CSS + React</a>
+          </p>
+          <p className="text-white text-center">
+            Hosted on &nbsp;
             <a href="https://vercel.com" className="text-teal-400">vercel.com</a>
           </p>
         </div>
