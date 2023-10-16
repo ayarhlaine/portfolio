@@ -34,7 +34,7 @@ const Testimonial = ({
         initial="offscreen"
         whileInView="onscreen" 
         variants={fadeIn(index * 0.5, 0.75)}
-        className="bg-[#090325] p-5 rounded-xl md:flex-1">
+        className="bg-[#090325] p-5 rounded-xl md:flex-1 md:max-w-md min-w-full md:min-w-0">
             <img src="/assets/quote.png" className="mb-3" alt="Qoute" width={24} height={24}/>
             <div>
                 <div dangerouslySetInnerHTML={htmlContent} />
