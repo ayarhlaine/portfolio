@@ -56,22 +56,22 @@ const EXPERIENCES = [
 
 const TESTIMONIALS = [
     {
-        name: 'John Doe',
-        position: 'CTO',
-        company: 'ABC Company',
-        recommendation: 'Ayar Hlaine is an exceptional member of our IT team. They consistently demonstrate a high level of technical proficiency and always go above and beyond to ensure that our systems are running smoothly.'
+        name: 'Melvin Chow',
+        position: 'Head of Regional Operations Performance and Projects',
+        company: 'SUSTENIR AGRICULTURE (SINGAPORE) PTE LTD.',
+        recommendation: '<p>&nbsp;&nbsp;&nbsp;Throughout his time with our organization, Ayar has been very diligent and showed great initiative to help the company maintain its existing IT infrastructure for the company personnel, and at the same time aggressively reducing cost for the company.</p><p>...</p><p>&nbsp;&nbsp;&nbsp;He would be a valuable asset to any employer, and I would recommend him for any endeavour he chooses to pursue.</p>'
     },
     {
-        name: 'Alice',
-        position: 'CTO',
-        company: 'ABC Company',
-        recommendation: 'Since joining our IT department, Ayar Hlaine has been a key contributor to our success. They are always willing to take on new challenges and have an exceptional work ethic.'
+        name: '',
+        position: '',
+        company: '',
+        recommendation: ''
     },
     {
-        name: 'Bob',
-        position: 'CTO',
-        company: 'ABC Company',
-        recommendation: 'I have had the pleasure of working with Ayar Hlaine for several years now, and they are simply one of the best IT professionals I have ever worked with. They have a deep understanding of our organization\'s needs and are always able to deliver solutions that meet or exceed our expectations.'
+        name: '',
+        position: '',
+        company: '',
+        recommendation: ''
     },
 ]
 

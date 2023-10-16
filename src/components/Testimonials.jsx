@@ -25,18 +25,24 @@ const Testimonial = ({
     testimonial, index
 }) => {
     const { name, position, company, recommendation } = testimonial;
+    const htmlContent = {
+        __html: recommendation,
+      };
+  
     return (
         <motion.div 
         initial="offscreen"
         whileInView="onscreen" 
         variants={fadeIn(index * 0.5, 0.75)}
         className="bg-[#090325] p-5 rounded-xl md:flex-1">
-            <p className="text-white text-[46px]">&quot;</p>
+            <img src="/assets/quote.png" className="mb-3" alt="Qoute" width={24} height={24}/>
             <div>
-                <p className="text-white text-base tracking-wider py-1 md:text-[18px] font-light">{recommendation}</p>
+                <div dangerouslySetInnerHTML={htmlContent} />
                 <div>
-                    <p className="text-xl text-white mt-4 md:text-2xl"><span className="text-teal-400">~</span>&nbsp;{name}</p>
-                    <p className="text-xs text-slate-400">{position} of {company}</p>
+                    {name.length > 0 && 
+                    <p className="text-xl text-white mt-4 md:text-2xl"><span className="text-teal-400">~</span>&nbsp;{name}&nbsp;<span className="text-teal-400">~</span></p>}
+                    <p className="text-xs text-white">{position}</p>
+                    <p className="text-xs text-slate-400 mt-4">{company}</p>
                 </div>
             </div>
         </motion.div>
