@@ -59,7 +59,7 @@ const TESTIMONIALS = [
         name: 'Melvin Chow',
         position: 'Head of Regional Operations Performance and Projects',
         company: 'SUSTENIR AGRICULTURE (SINGAPORE) PTE LTD.',
-        recommendation: '<p>&nbsp;&nbsp;&nbsp;Throughout his time with our organization, Ayar has been very diligent and showed great initiative to help the company maintain its existing IT infrastructure for the company personnel, and at the same time aggressively reducing cost for the company.</p><p>...</p><p>&nbsp;&nbsp;&nbsp;He would be a valuable asset to any employer, and I would recommend him for any endeavour he chooses to pursue.</p>'
+        recommendation: '<p>&nbsp;&nbsp;&nbsp;Throughout his time with our organization, Ayar has been very diligent and showed great initiative to help the company maintain its existing IT infrastructure for the company personnel, and at the same time aggressively reducing cost for the company .....<p>..... He would be a valuable asset to any employer, and I would recommend him for any endeavour he chooses to pursue.</p>'
     },
     {
         name: '',
