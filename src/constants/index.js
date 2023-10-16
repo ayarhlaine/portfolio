@@ -2,6 +2,7 @@ const EXPERIENCES = [
     {
         title: 'IT Engineer',
         date: 'Nov 2022 - Present',
+        duration: '1 yr',
         company_name: 'Sustenir Agriculture (Singapore) PTE. LTD',
         location: 'Singapore',
         job_type: 'On Site',
@@ -16,6 +17,7 @@ const EXPERIENCES = [
     {
         title: 'Full Stack Developer (Contract)',
         date: 'Mar 2021 - Nov 2022',
+        duration: '1 yr 9 mos',
         company_name: '-',
         location: 'Singapore',
         job_type: 'Remote',
@@ -29,6 +31,7 @@ const EXPERIENCES = [
     {
         title: 'Full Stack Developer (Freelance)',
         date: 'Feb 2021- Feb 2021',
+        duration: '1 mo',
         company_name: 'BlueBell People PTE. LTD',
         location: 'Singapore',
         job_type: 'Remote',
@@ -42,6 +45,7 @@ const EXPERIENCES = [
     {
         title: 'Junior Web Developer',
         date: 'Sep 2018 - Jan 2021',
+        duration: '2 yrs 5 mos',
         company_name: 'Host Myanmar (Software Solutions)',
         location: 'Yangon (Myanmar)',
         job_type: 'On Site',

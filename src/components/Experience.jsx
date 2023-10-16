@@ -17,7 +17,10 @@ const ExperienceCard = ({ experience }) => {
     return (
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date={experience.date}
+        date={<div>
+          <div>{experience.date}</div>
+          <div className='text-slate-300 text-sm'>{experience.duration}</div>
+        </div>}
         // iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
         contentStyle={{ backgroundColor: '#090325' }}
         icon={<CompanyIcon icon={experience.icon}/>}
