@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import AnimatedSectionHeader from "./AnimatedSectionHeader";
 import { styles } from "../styles";
 import { fadeIn } from "../utils/animations";
+import './Testimonials.css';
 
 const Testimonials = () => {
   return (
@@ -24,7 +25,7 @@ const Testimonials = () => {
 const Testimonial = ({
     testimonial, index
 }) => {
-    const { name, position, company, recommendation } = testimonial;
+    const { name, position, company, image, recommendation } = testimonial;
     const htmlContent = {
         __html: recommendation,
       };
@@ -34,17 +35,28 @@ const Testimonial = ({
         initial="offscreen"
         whileInView="onscreen" 
         variants={fadeIn(index * 0.5, 0.75)}
-        className="bg-[#090325] p-5 rounded-xl md:flex-1 md:max-w-md min-w-full md:min-w-0">
-            <img src="/assets/quote.png" className="mb-3" alt="Qoute" width={24} height={24}/>
-            <div>
-                <div dangerouslySetInnerHTML={htmlContent} />
-                <div>
-                    {name.length > 0 && 
-                    <p className="text-xl text-white mt-4 md:text-2xl"><span className="text-teal-400">~</span>&nbsp;{name}&nbsp;<span className="text-teal-400">~</span></p>}
-                    <p className="text-xs text-white">{position}</p>
-                    <p className="text-xs text-slate-400 mt-4">{company}</p>
+        className="bg-[#090325] p-5 rounded-xl md:flex-1 md:max-w-md min-w-full md:min-w-0 relative mt-[3rem]">
+            {
+                name.length > 0 ?
+                <>
+                <div className="testimonial__image__container">
+                    <img src={image} className="testimonial__image" alt="User Image" width={'100%'} height={'100%'}/>
                 </div>
-            </div>
+                <div className="text-center mt-[3rem]">
+                    <p className="text-xl text-white mt-4 md:text-1xl">{name}</p>
+                    <p className="text-xs text-slate-300">{position}</p>
+                    <p className="text-xs uppercase text-slate-500">{company}</p>
+                </div>
+                <div className="text-center mt-3">
+                    <img src="/assets/quote.png" className="mb-3" alt="Qoute" width={24} height={24}/>
+                    <div dangerouslySetInnerHTML={htmlContent} className="text-slate-400 text-sm"/>
+                </div>
+                </>
+                :
+                <>
+                    <div className="flex items-center justify-center h-full"><p className="text-2xl">TBA</p></div>
+                </>
+            }
         </motion.div>
     )
 }

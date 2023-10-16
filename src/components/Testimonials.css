@@ -1,0 +1,15 @@
+.testimonial__image__container {
+    background-color: #e3e3e3;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 7rem;
+}
+
+.testimonial__image{
+    border-radius: 7rem;
+    object-fit: fill;
+}

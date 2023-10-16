@@ -58,7 +58,8 @@ const TESTIMONIALS = [
     {
         name: 'Melvin Chow',
         position: 'Head of Regional Operations Performance and Projects',
-        company: 'SUSTENIR AGRICULTURE (SINGAPORE) PTE LTD.',
+        company: 'Sustenir Agriculture (Singapore) Pte Ltd.',
+        image: "https://media.licdn.com/dms/image/C4D03AQHBxuVqNjKW4w/profile-displayphoto-shrink_800_800/0/1517379863070?e=1703116800&v=beta&t=I8sZ83beJBkCmDMJjpKHIjUpBDXaECLSiM67d7DK20M",
         recommendation: '<p>&nbsp;&nbsp;&nbsp;Throughout his time with our organization, Ayar has been very diligent and showed great initiative to help the company maintain its existing IT infrastructure for the company personnel, and at the same time aggressively reducing cost for the company .....<p>..... He would be a valuable asset to any employer, and I would recommend him for any endeavour he chooses to pursue.</p>'
     },
     {
