@@ -82,6 +82,29 @@ const TESTIMONIALS = [
 
 const PROJECTS = [
     {
+        title: "3D Hydroponic Rig",
+        links: [
+            { text: "Demo", link: "https://3d-rig-ayarhlaine.vercel.app/" },
+            { text: "Source Code", link: "https://github.com/ayarhlaine/3d-models" }
+        ],
+        description: "Interactive 3D webpage",
+        image: "projects/3d-rig.png",
+        tags: [
+            {
+                color: '#34D399',
+                name: "#html", 
+            },
+            {
+                color: '#08B5D4',
+                name: "#css", 
+            },
+            {
+                color: '#EC4899',
+                name: "#threejs", 
+            },
+        ]
+    },
+    {
         title: "Sunnyside landing page",
         links: [
             { text: "Demo", link: "https://sunnyside-agency-landing-page-pink-six.vercel.app" },
@@ -149,7 +172,7 @@ const PROJECTS = [
                 name: "#game", 
             }
         ]
-    }
+    },
 ]
 
 export {

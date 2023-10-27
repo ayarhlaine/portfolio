@@ -21,7 +21,7 @@ const Projects = () => {
 const ProjectCard = ({ project }) => {
   return (
     <div className='p-7 bg-black-200 rounded-lg'>
-      <img src={`/assets/${project.image}`} className='w-full object-contain rounded-lg'/>
+      <img src={`/assets/${project.image}`} className='w-full object-cover rounded-lg' style={{ height: 240 }}/>
       <h2 className='text-2xl text-white mt-2' >{project.title}</h2>
       <p className='text-base text-slate-400 mt-2'>{project.description}</p>
       <div className='mt-4'>
