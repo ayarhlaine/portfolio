@@ -30,7 +30,7 @@ const ContactForm = () => {
     }
     return (
     <section className={`${styles.padding}`}>
-        <div className={`bg-black-200 ${styles.padding} md:w-[50%]`}>
+        <div className={`bg-black-200 ${styles.padding} md:w-[100%] lg:w-[70%]`}>
             <h1 className={`${styles.sectionSubHeading}`}>Get In Touch</h1>
             <h1 className={`${styles.sectionHeading}`}>Contact.</h1>
             <div className="flex w-full mt-5 flex-col">

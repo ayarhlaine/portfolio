@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section className={`${styles.padding}`}>
       <AnimatedSectionHeader heading={'Projects.'} subHeading={'My Work'}/>
-      <div className='mt-10 grid gap-5 grid-cols-1 md:grid-cols-3 md:gap-10'>
+      <div className='mt-10 grid gap-5 grid-cols-1 md:grid-cols-2 md:gap-10 lg:grid-cols-3'>
         {
           PROJECTS.map((project) => (
             <ProjectCard key={project.title} project={project}/>

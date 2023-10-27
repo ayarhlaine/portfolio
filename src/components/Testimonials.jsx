@@ -11,7 +11,7 @@ const Testimonials = () => {
   return (
     <section className={`${styles.padding}`}>
         <AnimatedSectionHeader heading={'Testimonials.'} subHeading={'What they say'}/>
-        <div className='flex flex-row mt-5 gap-6 flex-wrap md:flex-nowrap'>
+        <div className='mt-10 grid gap-5 grid-cols-1 lg:gap-10 lg:grid-cols-3'>
             {
                 TESTIMONIALS.map((testimonial, index) => (
                     <Testimonial key={testimonial.name} testimonial={testimonial} index={index}/>
@@ -26,6 +26,7 @@ const Testimonial = ({
     testimonial, index
 }) => {
     const { name, position, company, image, recommendation } = testimonial;
+    const extraClassNames = name.length <= 0 ? 'hidden lg:block' : '';
     const htmlContent = {
         __html: recommendation,
       };
@@ -35,7 +36,7 @@ const Testimonial = ({
         initial="offscreen"
         whileInView="onscreen" 
         variants={fadeIn(index * 0.5, 0.75)}
-        className="bg-[#090325] p-5 rounded-xl md:flex-1 md:max-w-md min-w-full md:min-w-0 relative mt-[3rem]">
+        className={`bg-[#090325] p-5 rounded-xl lg:max-w-md min-w-full md:min-w-0 relative mt-[3rem] ${extraClassNames}`} style={{ minHeight: 250 }}>
             {
                 name.length > 0 ?
                 <>
@@ -48,13 +49,14 @@ const Testimonial = ({
                     <p className="text-xs uppercase text-slate-500">{company}</p>
                 </div>
                 <div className="text-center mt-3">
-                    <img src="/assets/quote.png" className="mb-3" alt="Qoute" width={24} height={24}/>
+                    <img src="/assets/quote.png" className="mb-3" alt="Quote" width={24} height={24}/>
                     <div dangerouslySetInnerHTML={htmlContent} className="text-slate-400 text-sm"/>
+                    <img src="/assets/quote.png" className="mt-3 quote-right" alt="Quote" width={24} height={24}/>
                 </div>
                 </>
                 :
                 <>
-                    <div className="flex items-center justify-center h-full"><p className="text-2xl">TBA</p></div>
+                    <div className="flex items-center justify-center h-full watermark"></div>
                 </>
             }
         </motion.div>
